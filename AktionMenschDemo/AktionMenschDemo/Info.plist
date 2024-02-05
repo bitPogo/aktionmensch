@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Lose</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>lots</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>win</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Gewinn prüfen</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Archiv der Gewinnzahlen aus den letzten 12
+
+Wochen</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>numbers</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Gewinnzahlen</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>humans</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Menschen</string>
+		</dict>
+	</array>
+</dict>
+</plist>
