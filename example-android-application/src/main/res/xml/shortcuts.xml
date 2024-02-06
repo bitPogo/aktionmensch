@@ -1,0 +1,58 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="lots"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/lots_label"
+        android:shortcutLongLabel="@string/lots_label"
+        android:shortcutDisabledMessage="@string/lots_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="lots"
+            android:targetPackage="tech.antibytes.project.example.app"
+            android:targetClass="tech.antibytes.project.example.app.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="win_gambling"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/win_gambling_label"
+        android:shortcutLongLabel="@string/win_gambling_label"
+        android:shortcutDisabledMessage="@string/win_gambling_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="win_gambling"
+            android:targetPackage="tech.antibytes.project.example.app"
+            android:targetClass="tech.antibytes.project.example.app.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="win_numbers"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/win_numbers_label"
+        android:shortcutLongLabel="@string/win_numbers_description"
+        android:shortcutDisabledMessage="@string/win_numbers_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="win_numbers"
+            android:targetPackage="tech.antibytes.project.example.app"
+            android:targetClass="tech.antibytes.project.example.app.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="humans"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/humans_label"
+        android:shortcutLongLabel="@string/humans_label"
+        android:shortcutDisabledMessage="@string/humans_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="humans"
+            android:targetPackage="tech.antibytes.project.example.app"
+            android:targetClass="tech.antibytes.project.example.app.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+</shortcuts>

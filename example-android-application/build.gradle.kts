@@ -74,6 +74,7 @@ dependencies {
     implementation(antibytesCatalog.android.compose.ui.core)
     implementation(antibytesCatalog.android.material.compose.core)
     implementation(antibytesCatalog.android.compose.foundation.core)
+    implementation(antibytesCatalog.android.ktx.activity.compose)
 
     testImplementation(libs.testUtils.core)
     testImplementation(libs.testUtils.coroutine)

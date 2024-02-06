@@ -17,21 +17,19 @@ struct ContentView: View {
             switch self.screen {
                 case 1:
                     Text("Lose")
-                    Image(.cat1).imageScale(.large)
+                    Image(.cat1).imageScale(.medium)
                 case 2:
                     Text("Gewinn prüfen")
-                    Image(.cat2).imageScale(.large)
+                    Image(.cat2).imageScale(.medium)
                 case 3:
                     Text("Gewinnzahlen")
-                    Image(.cat3).imageScale(.large)
+                    Image(.cat3).imageScale(.medium)
                 case 4:
                     Text("Menschen")
-                    Image(.cat4).imageScale(.large)
+                    Image(.cat4).imageScale(.medium)
                 default:
-                    Image(systemName: "globe")
-                        .imageScale(.large)
-                        .foregroundStyle(.tint)
-                    Text("Hello, world!")
+                    Text("Start")
+                    Image(.catStart).imageScale(.medium)
             }
         }
         .onChange(of: scenePhase) { newVal in

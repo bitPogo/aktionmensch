@@ -14,13 +14,5 @@ import kotlinx.coroutines.flow.StateFlow
 @Preview
 @Composable
 fun SampleComposablePreview() {
-    val flow = MutableStateFlow("generic text")
 
-    SampleComposable(viewModel = ViewModelStub(flow))
-}
-
-private class ViewModelStub(override val flow: StateFlow<String>) : AppContract.SampleViewModel {
-    override fun doSomething() {
-        TODO("Not yet implemented")
-    }
 }

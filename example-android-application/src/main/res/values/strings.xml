@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aktion Mensch Demo</string>
+    <string name="lots_label">Lose</string>
+    <string name="win_gambling_label">Gewinn prüfen</string>
+    <string name="win_numbers_label">Gewinnzahlen</string>
+    <string name="win_numbers_description">Archiv der Gewinnzahlen aus den letzten 12 Wochen</string>
+    <string name="humans_label">Menschen</string>
+</resources>
